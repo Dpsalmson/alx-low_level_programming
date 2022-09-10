@@ -21,7 +21,9 @@ putchar(p + '0');
 putchar(m + '0');
 if (i != 7)
 {
-putchar(',', ' ');
+putchar(',');
+putchar(' ');
+}
 }
 }
 }
