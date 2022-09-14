@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * time_table - function is to print the 9 times table, starting with o.
+ * times_table - function is to print the 9 times table, starting with o.
  */
 void times_table(void)
 {
+
 int num, mult, prod;
 
 for (num = 0; num <= 9; num++)
