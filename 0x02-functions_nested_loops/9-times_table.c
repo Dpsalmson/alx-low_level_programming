@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * time_table - print the 9 times table, starting with o.
+ * time_table - function is to print the 9 times table, starting with o.
  */
 void times_table(void)
 {
