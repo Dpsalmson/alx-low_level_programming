@@ -17,7 +17,7 @@ if ((n == 50) || (n == 52))
 {
 continue;
 }
-putchar(n);
+_putchar(n);
 }
-putchar(10);
+_putchar(10);
 }
