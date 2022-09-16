@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - program that prints either number
@@ -39,7 +40,7 @@ else
 printf("%d ", num);
 }
 }
-printf('\n');
+printf("\n");
 
 return (0);
 }
