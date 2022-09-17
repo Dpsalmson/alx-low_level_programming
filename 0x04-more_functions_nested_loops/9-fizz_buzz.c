@@ -1,43 +1,44 @@
 #include <stdio.h>
 
 /**
- * main - print the numbers from 1-100 but multiples of s,
- * Fizz is operated in place of the number, Buzz in place of multiples
- * of 5 and FizzBuzz for both five and three.
+ * main - program that prints either number
+ * or fizz or buzz or fizbuzz
  *
- * Return: Always 0;
+ *
+ * Return: returns 0
  */
 
 int main(void)
 {
-int n;
+int num = 1;
 
-for (n = 1; n <= 100; n++)
+while (num++ < 100)
 {
-if ((n % 3) == 0 && (n % 5) == 0)
+if ((num % 3 == 0) && (num % 5 == 0))
 {
-printf("FizzBuzz");
+printf("FizzBuzz ");
 }
-else if ((n % 3) == 0)
+else if ((num % 3) == 0)
 {
-printf("Fizz");
+printf("Fizz ");
 }
-else if ((n % 5) == 0)
+else if ((num % 5) == 0)
 {
-printf("Buzz");
+if (num != 100)
+{
+printf("Buzz ");
 }
 else
 {
-printf("%d", n);
+printf("Buzz");
 }
-if (n == 100)
+}
+else
 {
-continue;
+printf("%d ", num);
 }
-printf(" ")
 }
 printf("\n");
 
 return (0);
 }
-
