@@ -13,7 +13,7 @@ return (1 + _length(s + 1));
 }
 
 /**
- * checkp - checks if the string is palindrome.
+ * checkp - checks if the string is palindrome
  * @i: is the index
  * @lg: is the length of the string.
  * @s: is the string.
@@ -40,8 +40,8 @@ return (1);
 }
 
 /**
- * is_palindrome - checks if a string is a palindrome.
- * @s: is the string.
+ * is_palindrome - checks if a string is a palindrome
+ * @s: is the string
  * Return: return 1 if the string is a palindrome or 0 otherwise
  */
 int is_palindrome(char *s)
