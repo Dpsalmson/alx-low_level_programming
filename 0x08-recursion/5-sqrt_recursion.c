@@ -18,7 +18,6 @@ if ((pSqrt * pSqrt) > num)
 return (-1);
 else
 return (helperFunction(num, pSqrt + 1));
-
 }
 }
 
