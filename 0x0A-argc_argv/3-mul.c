@@ -3,17 +3,15 @@
 #include <stdio.h>
 
 /**
- * main - Program that multiplies two numbers.
- * @argc: This is the argument count
- * @argv: This is the argument vector
- *
+ * main - Prints the multiplication of two integers
+ * @argc: argument count
+ * @argv: argument vector
  * Return: 0 if true, 1 if false.
 */
-
 int main(int argc, char *argv[])
 {
 int a, b;
-if (argc == 1)
+if (argc == 3)
 {
 a = atoi(argv[1]);
 b = atoi(argv[2]);
