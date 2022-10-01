@@ -1,6 +1,6 @@
-#include <stdlib.h>
 #include <stdio.h>
-
+#include <stdlib.h>
+#include "main.h"
 /**
  * main - Program that multiplies two numbers.
  * @argc: This is the argument count
@@ -24,5 +24,4 @@ multiplication = multiplication * atoi(argv[index]);
 }
 printf("%d\n", multiplication);
 return (0);
-
 }
