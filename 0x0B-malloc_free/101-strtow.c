@@ -48,14 +48,14 @@ for (index = 0; index < len; index++)
 if (*(str + index) != ' ')
 {
 words++;
-index += word len(str + index);
+index += word_len(str + index);
 }
 }
 return (words);
 }
 
 /**
- * strtow: Splitsa string into words.
+ * strtow - Splits a string into words.
  * @str: The string to be splited.
  *
  * Return: If str = NULL, str = "", or the function fails - NULL.
@@ -64,7 +64,7 @@ return (words);
 char **strtow(char *str)
 {
 char **strings;
-int index = 0, words, w, letters, i;
+int index = 0, words, w, letters, l;
 
 if (str ==  NULL || str[0] == '\0')
 return (NULL);
