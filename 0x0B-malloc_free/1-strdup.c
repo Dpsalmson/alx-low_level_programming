@@ -5,7 +5,7 @@
  * Return: 1
  */
 
-int _strlen(char *s)
+char _strlen(char *s)
 {
 unsigned int i;
 
