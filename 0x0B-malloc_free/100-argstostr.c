@@ -39,7 +39,7 @@ new_string[j + temp] = av[k][j];
 temp += (j + i);
 k++;
 }
-new_string[temp] = '\0'
+new_string[temp] = '\0';
 }
 else
 {
