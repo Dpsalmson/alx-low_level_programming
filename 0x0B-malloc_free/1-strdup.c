@@ -5,14 +5,14 @@
  * Return: 1
  */
 
-int _strlen(char s)
+int _strlen(char *s)
 {
 unsigned int i;
 
 i = 0;
 while (s[i] != '\0') /*count character of the string*/
 {
-i++
+i++;
 }
 
 return (i);
