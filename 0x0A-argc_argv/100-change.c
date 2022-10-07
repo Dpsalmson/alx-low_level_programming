@@ -19,7 +19,7 @@ if (argc != 2)
 puts("Error");
 return (1);
 }
-a = atoi(argv[1]);
+a = atol(argv[1]);
 if (a <= 0)
 {
 puts("0");
