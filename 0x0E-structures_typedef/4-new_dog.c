@@ -42,7 +42,7 @@ free(n_dog->owner);
 free(n_dog);
 return (NULL);
 }
-for (i n = 0; i <= lenN; i++)
+for (i = 0; i <= lenN; i++)
 n_dog->name[i] = name[i];
 for (i = 0; i <= lenO; i++)
 n_dog->owner[i] = owner[i];
