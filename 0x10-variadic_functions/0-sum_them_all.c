@@ -20,8 +20,9 @@ return (0);
 va_start(valist, n);
 
 for (i = 0; i < n; i++)
+{
 sum += va _arg(valist, int);
-
+}
 va_end(valist);
 
 return (sum);
