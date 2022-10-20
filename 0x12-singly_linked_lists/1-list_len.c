@@ -14,7 +14,7 @@ size_t elements = 0;
 while (h)
 {
 elements++;
-h - h->next
+h = h->next;
 }
 
 return (elements);
