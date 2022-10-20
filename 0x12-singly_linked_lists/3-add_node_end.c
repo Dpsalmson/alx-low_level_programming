@@ -18,7 +18,7 @@ list_t *new, *last;
 
 new = malloc(sizeof(list_t));
 if
-(new == NULL);
+(new == NULL)
 return (NULL);
 
 dup = strdup(str);
