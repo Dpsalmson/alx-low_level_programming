@@ -2,7 +2,7 @@
 
 /**
  * binary_to_unit - Converts a binary number to unsigned int
- * @b: string containing the binary number
+ * @b: binary.
  *
  * Return: unsigned int.
  */
